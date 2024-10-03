@@ -1,0 +1,166 @@
+<div class="container d-flex justify-content-center">
+  <div class="card wd-card" [ngClass]="{'loading': isLoading}">
+    <div class="card-body">
+      <h5 class="card-title">Upload and compress Image</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Observaciones</h6>
+      <div class="card-text">
+
+     
+        <div class="overlay justify-content-center align-items-center" *ngIf="isLoading">
+            <img
+              src="../../../assets/windows-error-virus-alert.gif"
+              style="width: 35%"
+              alt="Loading..."
+            />
+          </div>
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                Why is there a difference in image size?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  The difference in size by several bytes between the reported
+                  size of the compressed image
+                  (<code>imgResultAfterCompressSize</code>) and the size of the
+                  downloaded file can be attributed to several factors:
+                </p>
+                <p>
+                  <strong>1. Base64 Encoding:</strong> The conversion to a data
+                  URL format uses Base64 encoding, which increases the size by
+                  approximately 33%. Therefore, the reported size might include
+                  this overhead.
+                </p>
+                <p>
+                  <strong>2. Differences in Calculation Methods:</strong> The
+                  method <code>byteCount</code> may not correctly calculate the
+                  size of the Base64 string, resulting in a larger value than
+                  the actual size of the downloaded file.
+                </p>
+                <p>
+                  <strong>3. Quality and Compression:</strong> The compression
+                  of the image, especially if lossy, can reduce its size.
+                  Quality settings also affect the final size.
+                </p>
+                <p>
+                  <strong>4. Output Format:</strong> The final file size may
+                  vary depending on the image format (JPG, PNG) and the included
+                  metadata.
+                </p>
+                <p>
+                  <strong>5. Browser Interactions:</strong> Browser-specific
+                  factors may influence how the file size is saved and handled
+                  during download, such as additional compression or the removal
+                  of metadata.
+                </p>
+                <p>
+                  In summary, the size discrepancy is mainly due to encoding,
+                  the quality of compression, and how sizes are calculated and
+                  handled in different formats.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-xl-6">
+          <label for="qualityRange">Compression Quality: {{ quality }} %</label>
+          <input
+            type="range"
+            id="qualityRange"
+            min="0"
+            max="100"
+            [(ngModel)]="quality"
+            class="form-range"
+            (ngModelChange)="onQualityChange($event)"
+            [disabled]="isRangeDisabled"
+          />
+        </div>
+
+        <div class="col-xl-6">
+          <label for="qualityRange">Compression Size: {{ size }} %</label>
+          <input
+            type="range"
+            id="qualityRange"
+            min="0"
+            max="100"
+            [(ngModel)]="size"
+            class="form-range"
+            (ngModelChange)="onSizeChange($event)"
+            [disabled]="isRangeDisabled"
+          />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-6">
+          <div class="row justify-content-center align-items-center">
+            <img
+              class="img-thumbnail img-fluid img-compress"
+              [src]="imgResultBeforeCompress"
+              alt=""
+            />
+          </div>
+          <div class="row justify-content-center align-items-center">
+            <span class="text-center">{{ imgResultBeforeCompressSize }}</span>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="row justify-content-center align-items-center">
+            <img
+              class="img-thumbnail img-fluid img-compress"
+              *ngIf="imgResultAfterCompress"
+              [src]="imgResultAfterCompress"
+              alt=""
+            />
+          </div>
+          <div class="row justify-content-center align-items-center">
+            <span class="text-center">{{ imgResultAfterCompressSize }}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-footer d-flex justify-content-center mt-4">
+        <button
+          *ngIf="!imgResultAfterCompress"
+          class="btn btn-primary mx-2"
+          (click)="compressFile()"
+        >
+          Upload Image
+        </button>
+        <button
+          *ngIf="imgResultAfterCompress"
+          class="btn btn-success mx-2"
+          (click)="download()"
+        >
+          Download
+        </button>
+        <button
+          *ngIf="imgResultAfterCompress"
+          class="btn btn-danger mx-2"
+          (click)="clear()"
+        >
+          Clear
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

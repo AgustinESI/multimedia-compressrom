@@ -1,0 +1,34 @@
+.img-compress {
+  height: 200px !important;
+  width: 200px !important;
+  object-fit: contain;
+}
+
+.wd-card {
+  width: 80% !important;
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100% !important;
+  }
+}
+
+.overlay {
+    position: absolute; /* Absolute positioning for overlay */
+    top: 0; /* Align to the top of the card */
+    left: 0; /* Align to the left of the card */
+    width: 100%; /* Cover full width of the card */
+    height: 100%; /* Cover full height of the card */
+    display: flex; /* Use flex to center contents */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    z-index: 10; /* Ensure the overlay is on top */
+    border-radius: 10px; /* Rounded corners */
+  }
+
+.loading {
+  background-color: white !important;
+  transition: background-color 0.3s ease;
+}

@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Max",
+    "surname": "Verstappen",
+    "dob": "1997-09-30",
+    "scuderia": "Red Bull Racing",
+    "image": "verstappen.png",
+    "image-gold-no-name": "verstappen-gold-no-name.png",
+    "image-gold-name": "verstappen-gold-name.png"
+  },
+  {
+    "name": "Sergio",
+    "surname": "Perez",
+    "dob": "1990-01-26",
+    "scuderia": "Red Bull Racing",
+    "image": "perez.png",
+    "image-gold-no-name": "perez-gold-no-name.png",
+    "image-gold-name": "perez-gold-name.png"
+  },
+  {
+    "name": "Lewis",
+    "surname": "Hamilton",
+    "dob": "1985-01-07",
+    "scuderia": "Mercedes",
+    "image": "hamilton.png",
+    "image-gold-no-name": "hamilton-gold-no-name.png",
+    "image-gold-name": "hamilton-gold-name.png"
+  },
+  {
+    "name": "George",
+    "surname": "Russell",
+    "dob": "1998-02-15",
+    "scuderia": "Mercedes",
+    "image": "russell.png",
+    "image-gold-no-name": "russell-gold-no-name.png",
+    "image-gold-name": "russell-gold-name.png"
+  },
+  {
+    "name": "Charles",
+    "surname": "Leclerc",
+    "dob": "1997-10-16",
+    "scuderia": "Ferrari",
+    "image": "leclerc.png",
+    "image-gold-no-name": "leclerc-gold-no-name.png",
+    "image-gold-name": "leclerc-gold-name.png"
+  },
+  {
+    "name": "Carlos",
+    "surname": "Sainz",
+    "dob": "1994-09-01",
+    "scuderia": "Ferrari",
+    "image": "sainz.png",
+    "image-gold-no-name": "sainz-gold-no-name.png",
+    "image-gold-name": "sainz-gold-name.png"
+  },
+  {
+    "name": "Lando",
+    "surname": "Norris",
+    "dob": "1999-11-13",
+    "scuderia": "McLaren",
+    "image": "norris.png",
+    "image-gold-no-name": "norris-gold-no-name.png",
+    "image-gold-name": "norris-gold-name.png"
+  },
+  {
+    "name": "Oscar",
+    "surname": "Piastri",
+    "dob": "2001-04-06",
+    "scuderia": "McLaren",
+    "image": "piastri.png",
+    "image-gold-no-name": "piastri-gold-no-name.png",
+    "image-gold-name": "piastri-gold-name.png"
+  },
+  {
+    "name": "Fernando",
+    "surname": "Alonso",
+    "dob": "1981-07-29",
+    "scuderia": "Aston Martin",
+    "image": "alonso.png",
+    "image-gold-no-name": "alonso-gold-no-name.png",
+    "image-gold-name": "alonso-gold-name.png"
+  },
+  {
+    "name": "Lance",
+    "surname": "Stroll",
+    "dob": "1998-10-29",
+    "scuderia": "Aston Martin",
+    "image": "stroll.png",
+    "image-gold-no-name": "stroll-gold-no-name.png",
+    "image-gold-name": "stroll-gold-name.png"
+  },
+  {
+    "name": "Esteban",
+    "surname": "Ocon",
+    "dob": "1996-09-17",
+    "scuderia": "Alpine",
+    "image": "ocon.png",
+    "image-gold-no-name": "ocon-gold-no-name.png",
+    "image-gold-name": "ocon-gold-name.png"
+  },
+  {
+    "name": "Pierre",
+    "surname": "Gasly",
+    "dob": "1996-02-07",
+    "scuderia": "Alpine",
+    "image": "gasly.png",
+    "image-gold-no-name": "gasly-gold-no-name.png",
+    "image-gold-name": "gasly-gold-name.png"
+  },
+  {
+    "name": "Alexander",
+    "surname": "Albon",
+    "dob": "1996-03-23",
+    "scuderia": "Williams",
+    "image": "albon.png",
+    "image-gold-no-name": "albon-gold-no-name.png",
+    "image-gold-name": "albon-gold-name.png"
+  },
+  {
+    "name": "Logan",
+    "surname": "Sargeant",
+    "dob": "2000-12-31",
+    "scuderia": "Williams",
+    "image": "sargeant.png",
+    "image-gold-no-name": "sargeant-gold-no-name.png",
+    "image-gold-name": "sargeant-gold-name.png"
+  },
+  {
+    "name": "Daniel",
+    "surname": "Ricciardo",
+    "dob": "1989-07-01",
+    "scuderia": "AlphaTauri",
+    "image": "ricciardo.png",
+    "image-gold-no-name": "ricciardo-gold-no-name.png",
+    "image-gold-name": "ricciardo-gold-name.png"
+  },
+  {
+    "name": "Yuki",
+    "surname": "Tsunoda",
+    "dob": "2000-05-11",
+    "scuderia": "AlphaTauri",
+    "image": "tsunoda.png",
+    "image-gold-no-name": "tsunoda-gold-no-name.png",
+    "image-gold-name": "tsunoda-gold-name.png"
+  },
+  {
+    "name": "Valtteri",
+    "surname": "Bottas",
+    "dob": "1989-08-28",
+    "scuderia": "Sauber",
+    "image": "bottas.png",
+    "image-gold-no-name": "bottas-gold-no-name.png",
+    "image-gold-name": "bottas-gold-name.png"
+  },
+  {
+    "name": "Zhou",
+    "surname": "Guanyu",
+    "dob": "1999-05-30",
+    "scuderia": "Sauber",
+    "image": "zhou.png",
+    "image-gold-no-name": "zhou-gold-no-name.png",
+    "image-gold-name": "zhou-gold-name.png"
+  },
+  {
+    "name": "Kevin",
+    "surname": "Magnussen",
+    "dob": "1992-10-05",
+    "scuderia": "Haas",
+    "image": "magnussen.png",
+    "image-gold-no-name": "magnussen-gold-no-name.png",
+    "image-gold-name": "magnussen-gold-name.png"
+  },
+  {
+    "name": "Nico",
+    "surname": "Hulkenberg",
+    "dob": "1987-08-19",
+    "scuderia": "Haas",
+    "image": "hulkenberg.png",
+    "image-gold-no-name": "hulkenberg-gold-no-name.png",
+    "image-gold-name": "hulkenberg-gold-name.png"
+  }
+]
