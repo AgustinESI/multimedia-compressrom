@@ -1,0 +1,58 @@
+.hover-success {
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.hover-success:hover {
+  background-color: #28a745 !important;
+  border-color: #28a745 !important;
+  color: white;
+}
+
+.min-width-paragraph {
+  min-width: 200px;
+  overflow-wrap: break-word;
+}
+
+.f1-lights {
+  display: flex;
+  position: relative;
+  width: 100%;
+  max-width: 520px;
+}
+
+.back-board {
+  position: absolute;
+  left: 5px;
+  right: 5px;
+  top: 50%;
+  height: 5%;
+  background: #000;
+  transform: translateY(-50%);
+}
+
+.light-strip {
+  background: black;
+  border-radius: 11px;
+  margin: 0 2px;
+  position: relative;
+  flex: 1;
+}
+
+.light {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  background: #222;
+  margin: 10px;
+}
+
+.on {
+  background: red !important;
+}
+
+.bg-gray3Pattern {
+  background-image: url(../../../assets/gray3-x2.png);
+  background-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

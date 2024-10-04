@@ -1,5 +1,76 @@
-<div class="container">
+<div class="bg-gray3Pattern pt-5 pb-5">
+  <div class="container d-flex justify-content-center">
+    <!--
+  <div id="container" class="row">
+    <div *ngFor="let driver of drivers">
+      <app-card id="{{ driver.name }}" [driver]="driver"></app-card>
+    </div>
+  </div>
+  -->
 
-    <app-card></app-card>
-
+    <div class="col-xl-6 d-flex justify-content-center">
+      <div
+        *ngIf="questions && questions.length > 0"
+        class="card"
+        style="width: 100%"
+      >
+        <div class="card-header">
+          <h3>F1 Quizz Application</h3>
+        </div>
+        <div class="card-body">
+          <p class="card-text min-width-paragraph">
+            {{ quizQuestions[currentQuestion].question }}
+          </p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li
+            *ngFor="let option of quizQuestions[currentQuestion].options"
+            class="list-group-item"
+          >
+            <button
+              class="btn btn-primary hover-success w-100"
+              (click)="validateAnswer(option.isCorrect)"
+            >
+              {{ option.answer }}
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-xl-6 d-flex justify-content-center">
+      <div class="f1-lights">
+        <div class="back-board"></div>
+        <div class="light-strip">
+          <div class="light"></div>
+          <div class="light"></div>
+          <div [ngClass]="{ on: ligths >= 1 }" class="light"></div>
+          <div [ngClass]="{ on: ligths >= 1 }" class="light"></div>
+        </div>
+        <div class="light-strip">
+          <div class="light"></div>
+          <div class="light"></div>
+          <div [ngClass]="{ on: ligths >= 2 }" class="light"></div>
+          <div [ngClass]="{ on: ligths >= 2 }" class="light"></div>
+        </div>
+        <div class="light-strip">
+          <div class="light"></div>
+          <div class="light"></div>
+          <div [ngClass]="{ on: ligths >= 3 }" class="light"></div>
+          <div [ngClass]="{ on: ligths >= 3 }" class="light"></div>
+        </div>
+        <div class="light-strip">
+          <div class="light"></div>
+          <div class="light"></div>
+          <div [ngClass]="{ on: ligths >= 4 }" class="light"></div>
+          <div [ngClass]="{ on: ligths >= 4 }" class="light"></div>
+        </div>
+        <div class="light-strip">
+          <div class="light"></div>
+          <div class="light"></div>
+          <div [ngClass]="{ on: ligths >= 5 }" class="light"></div>
+          <div [ngClass]="{ on: ligths >= 5 }" class="light"></div>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

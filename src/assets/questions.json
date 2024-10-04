@@ -1,0 +1,692 @@
+[
+  {
+    "question_id": 1,
+    "question": "¿Quién tiene más campeonatos, Hamilton, Ayrton Senna, Alonso, Verstappen?",
+    "options": [
+      { "answer": "Alonso", "isCorrect": false },
+      { "answer": "Verstappen", "isCorrect": false },
+      { "answer": "Hamilton", "isCorrect": true },
+      { "answer": "Senna", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 2,
+    "question": "¿En qué año ganó Michael Schumacher su primer campeonato de Fórmula 1?",
+    "options": [
+      { "answer": "1994", "isCorrect": true },
+      { "answer": "1996", "isCorrect": false },
+      { "answer": "1999", "isCorrect": false },
+      { "answer": "1991", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 3,
+    "question": "¿Cuál es el equipo más exitoso en la historia de la Fórmula 1?",
+    "options": [
+      { "answer": "McLaren", "isCorrect": false },
+      { "answer": "Mercedes", "isCorrect": false },
+      { "answer": "Ferrari", "isCorrect": true },
+      { "answer": "Red Bull", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 4,
+    "question": "¿Cuántas veces ha ganado Fernando Alonso el campeonato mundial de F1?",
+    "options": [
+      { "answer": "1", "isCorrect": false },
+      { "answer": "2", "isCorrect": true },
+      { "answer": "3", "isCorrect": false },
+      { "answer": "0", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 5,
+    "question": "¿En qué país se encuentra el famoso circuito de Spa-Francorchamps?",
+    "options": [
+      { "answer": "Francia", "isCorrect": false },
+      { "answer": "Bélgica", "isCorrect": true },
+      { "answer": "Alemania", "isCorrect": false },
+      { "answer": "Mónaco", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 6,
+    "question": "¿Quién ganó el campeonato mundial de F1 en 2021?",
+    "options": [
+      { "answer": "Lewis Hamilton", "isCorrect": false },
+      { "answer": "Max Verstappen", "isCorrect": true },
+      { "answer": "Sebastian Vettel", "isCorrect": false },
+      { "answer": "Nico Rosberg", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 7,
+    "question": "¿Qué fabricante suministra los neumáticos a todos los equipos de Fórmula 1?",
+    "options": [
+      { "answer": "Pirelli", "isCorrect": true },
+      { "answer": "Michelin", "isCorrect": false },
+      { "answer": "Goodyear", "isCorrect": false },
+      { "answer": "Bridgestone", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 8,
+    "question": "¿Cuál es el circuito más largo del calendario actual de la F1?",
+    "options": [
+      { "answer": "Circuito de Mónaco", "isCorrect": false },
+      { "answer": "Silverstone", "isCorrect": false },
+      { "answer": "Spa-Francorchamps", "isCorrect": true },
+      { "answer": "Suzuka", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 9,
+    "question": "¿Qué piloto es conocido como 'El Kaiser' en la Fórmula 1?",
+    "options": [
+      { "answer": "Michael Schumacher", "isCorrect": true },
+      { "answer": "Sebastian Vettel", "isCorrect": false },
+      { "answer": "Ayrton Senna", "isCorrect": false },
+      { "answer": "Lewis Hamilton", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 10,
+    "question": "¿Quién es el piloto más joven en ganar un Gran Premio de Fórmula 1?",
+    "options": [
+      { "answer": "Lewis Hamilton", "isCorrect": false },
+      { "answer": "Sebastian Vettel", "isCorrect": false },
+      { "answer": "Max Verstappen", "isCorrect": true },
+      { "answer": "Fernando Alonso", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 11,
+    "question": "¿Quién fue el primer campeón mundial de Fórmula 1?",
+    "options": [
+      { "answer": "Alberto Ascari", "isCorrect": false },
+      { "answer": "Juan Manuel Fangio", "isCorrect": false },
+      { "answer": "Giuseppe Farina", "isCorrect": true },
+      { "answer": "Stirling Moss", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 12,
+    "question": "¿En qué año debutó el equipo Red Bull en la Fórmula 1?",
+    "options": [
+      { "answer": "2005", "isCorrect": true },
+      { "answer": "2008", "isCorrect": false },
+      { "answer": "2002", "isCorrect": false },
+      { "answer": "2010", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 13,
+    "question": "¿Cuál es el Gran Premio más antiguo en la historia de la Fórmula 1?",
+    "options": [
+      { "answer": "Gran Premio de Italia", "isCorrect": true },
+      { "answer": "Gran Premio de Mónaco", "isCorrect": false },
+      { "answer": "Gran Premio de Francia", "isCorrect": false },
+      { "answer": "Gran Premio de Gran Bretaña", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 14,
+    "question": "¿Qué piloto ha conseguido el mayor número de poles en la historia de la Fórmula 1?",
+    "options": [
+      { "answer": "Ayrton Senna", "isCorrect": false },
+      { "answer": "Michael Schumacher", "isCorrect": false },
+      { "answer": "Lewis Hamilton", "isCorrect": true },
+      { "answer": "Sebastian Vettel", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 15,
+    "question": "¿Qué equipo tiene el mayor número de campeonatos de constructores?",
+    "options": [
+      { "answer": "Mercedes", "isCorrect": false },
+      { "answer": "Ferrari", "isCorrect": true },
+      { "answer": "Williams", "isCorrect": false },
+      { "answer": "McLaren", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 16,
+    "question": "¿En qué año se retiró oficialmente Nico Rosberg de la Fórmula 1 después de ganar el campeonato?",
+    "options": [
+      { "answer": "2016", "isCorrect": true },
+      { "answer": "2015", "isCorrect": false },
+      { "answer": "2017", "isCorrect": false },
+      { "answer": "2014", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 17,
+    "question": "¿Cuál es la escudería más reciente en unirse al campeonato de Fórmula 1?",
+    "options": [
+      { "answer": "Haas F1 Team", "isCorrect": true },
+      { "answer": "Aston Martin", "isCorrect": false },
+      { "answer": "Alpine F1 Team", "isCorrect": false },
+      { "answer": "AlphaTauri", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 18,
+    "question": "¿Cuántas victorias consiguió Ayrton Senna en su carrera en Fórmula 1?",
+    "options": [
+      { "answer": "39", "isCorrect": false },
+      { "answer": "41", "isCorrect": true },
+      { "answer": "51", "isCorrect": false },
+      { "answer": "35", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 19,
+    "question": "¿Qué piloto ganó el Gran Premio de Mónaco en cinco ocasiones consecutivas?",
+    "options": [
+      { "answer": "Michael Schumacher", "isCorrect": false },
+      { "answer": "Ayrton Senna", "isCorrect": true },
+      { "answer": "Lewis Hamilton", "isCorrect": false },
+      { "answer": "Alain Prost", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 20,
+    "question": "¿Cuál fue el circuito donde se celebró la primera carrera de Fórmula 1 en 1950?",
+    "options": [
+      { "answer": "Circuito de Monza", "isCorrect": false },
+      { "answer": "Silverstone", "isCorrect": true },
+      { "answer": "Circuito de Spa-Francorchamps", "isCorrect": false },
+      { "answer": "Nürburgring", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 21,
+    "question": "¿Cuántas veces ha sido campeón mundial Sebastian Vettel?",
+    "options": [
+      { "answer": "3", "isCorrect": false },
+      { "answer": "4", "isCorrect": true },
+      { "answer": "5", "isCorrect": false },
+      { "answer": "2", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 22,
+    "question": "¿Qué piloto sufrió un accidente grave en el Gran Premio de Alemania de 1976, lo que llevó a un heroico regreso ese mismo año?",
+    "options": [
+      { "answer": "James Hunt", "isCorrect": false },
+      { "answer": "Niki Lauda", "isCorrect": true },
+      { "answer": "Emerson Fittipaldi", "isCorrect": false },
+      { "answer": "Jackie Stewart", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 23,
+    "question": "¿Cuál es el equipo de Fórmula 1 que ha estado más tiempo sin ganar un campeonato mundial de pilotos?",
+    "options": [
+      { "answer": "Williams", "isCorrect": false },
+      { "answer": "Ferrari", "isCorrect": true },
+      { "answer": "McLaren", "isCorrect": false },
+      { "answer": "Red Bull", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 24,
+    "question": "¿Qué piloto ganó el campeonato de Fórmula 1 en 2009?",
+    "options": [
+      { "answer": "Sebastian Vettel", "isCorrect": false },
+      { "answer": "Lewis Hamilton", "isCorrect": false },
+      { "answer": "Jenson Button", "isCorrect": true },
+      { "answer": "Mark Webber", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 25,
+    "question": "¿Cuál es el máximo número de campeonatos mundiales ganados por un solo piloto en la historia de la Fórmula 1?",
+    "options": [
+      { "answer": "5", "isCorrect": false },
+      { "answer": "7", "isCorrect": true },
+      { "answer": "6", "isCorrect": false },
+      { "answer": "8", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 26,
+    "question": "¿Cuál es el país de origen del piloto Kimi Räikkönen?",
+    "options": [
+      { "answer": "Suecia", "isCorrect": false },
+      { "answer": "Finlandia", "isCorrect": true },
+      { "answer": "Noruega", "isCorrect": false },
+      { "answer": "Dinamarca", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 27,
+    "question": "¿Qué escudería consiguió el campeonato de constructores en 2020?",
+    "options": [
+      { "answer": "Red Bull", "isCorrect": false },
+      { "answer": "Ferrari", "isCorrect": false },
+      { "answer": "Mercedes", "isCorrect": true },
+      { "answer": "McLaren", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 28,
+    "question": "¿En qué año debutó Lewis Hamilton en la Fórmula 1?",
+    "options": [
+      { "answer": "2007", "isCorrect": true },
+      { "answer": "2006", "isCorrect": false },
+      { "answer": "2008", "isCorrect": false },
+      { "answer": "2005", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 29,
+    "question": "¿Qué piloto ganó el Gran Premio de Brasil en 2008 en la famosa última vuelta?",
+    "options": [
+      { "answer": "Felipe Massa", "isCorrect": false },
+      { "answer": "Sebastian Vettel", "isCorrect": false },
+      { "answer": "Lewis Hamilton", "isCorrect": true },
+      { "answer": "Fernando Alonso", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 30,
+    "question": "¿Cuántos campeonatos de Fórmula 1 ha ganado Alain Prost?",
+    "options": [
+      { "answer": "3", "isCorrect": false },
+      { "answer": "4", "isCorrect": true },
+      { "answer": "5", "isCorrect": false },
+      { "answer": "2", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 31,
+    "question": "¿Quién es el fundador del equipo Ferrari?",
+    "options": [
+      { "answer": "Enzo Ferrari", "isCorrect": true },
+      { "answer": "Giovanni Agnelli", "isCorrect": false },
+      { "answer": "Luca di Montezemolo", "isCorrect": false },
+      { "answer": "Alfredo Ferrari", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 32,
+    "question": "¿Qué piloto fue compañero de Lewis Hamilton en McLaren durante su temporada de debut?",
+    "options": [
+      { "answer": "Fernando Alonso", "isCorrect": true },
+      { "answer": "Jenson Button", "isCorrect": false },
+      { "answer": "Kimi Räikkönen", "isCorrect": false },
+      { "answer": "Heikki Kovalainen", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 33,
+    "question": "¿Cuál fue el primer Gran Premio en celebrarse en un circuito urbano?",
+    "options": [
+      { "answer": "Gran Premio de Mónaco", "isCorrect": true },
+      { "answer": "Gran Premio de Singapur", "isCorrect": false },
+      { "answer": "Gran Premio de Bakú", "isCorrect": false },
+      { "answer": "Gran Premio de Las Vegas", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 34,
+    "question": "¿Qué piloto es el más veterano en ganar una carrera de Fórmula 1?",
+    "options": [
+      { "answer": "Nigel Mansell", "isCorrect": false },
+      { "answer": "Juan Manuel Fangio", "isCorrect": true },
+      { "answer": "Niki Lauda", "isCorrect": false },
+      { "answer": "Graham Hill", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 35,
+    "question": "¿Qué escudería fue la última en utilizar motores V10 en la Fórmula 1?",
+    "options": [
+      { "answer": "Ferrari", "isCorrect": false },
+      { "answer": "Renault", "isCorrect": true },
+      { "answer": "Williams", "isCorrect": false },
+      { "answer": "McLaren", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 36,
+    "question": "¿Qué piloto tiene el récord de más podios consecutivos en la Fórmula 1?",
+    "options": [
+      { "answer": "Lewis Hamilton", "isCorrect": true },
+      { "answer": "Sebastian Vettel", "isCorrect": false },
+      { "answer": "Michael Schumacher", "isCorrect": false },
+      { "answer": "Ayrton Senna", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 37,
+    "question": "¿Qué piloto fue conocido como 'El León' en la Fórmula 1?",
+    "options": [
+      { "answer": "Nigel Mansell", "isCorrect": true },
+      { "answer": "Nelson Piquet", "isCorrect": false },
+      { "answer": "Damon Hill", "isCorrect": false },
+      { "answer": "Jackie Stewart", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 38,
+    "question": "¿Qué escudería debutó en 2021 con la fusión entre Renault y un nuevo patrocinador?",
+    "options": [
+      { "answer": "Alpine", "isCorrect": true },
+      { "answer": "Aston Martin", "isCorrect": false },
+      { "answer": "AlphaTauri", "isCorrect": false },
+      { "answer": "Haas", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 39,
+    "question": "¿Qué piloto ganó su primer campeonato mundial con solo 23 años?",
+    "options": [
+      { "answer": "Sebastian Vettel", "isCorrect": true },
+      { "answer": "Lewis Hamilton", "isCorrect": false },
+      { "answer": "Max Verstappen", "isCorrect": false },
+      { "answer": "Fernando Alonso", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 40,
+    "question": "¿En qué año debutó la escudería Mercedes en su versión moderna en la Fórmula 1?",
+    "options": [
+      { "answer": "2010", "isCorrect": true },
+      { "answer": "2009", "isCorrect": false },
+      { "answer": "2011", "isCorrect": false },
+      { "answer": "2008", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 41,
+    "question": "¿Qué piloto es conocido por la frase 'Leave me alone, I know what I'm doing'?",
+    "options": [
+      { "answer": "Kimi Räikkönen", "isCorrect": true },
+      { "answer": "Fernando Alonso", "isCorrect": false },
+      { "answer": "Lewis Hamilton", "isCorrect": false },
+      { "answer": "Sebastian Vettel", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 42,
+    "question": "¿Qué piloto fue el último en ganar un campeonato con Ferrari antes de la sequía posterior?",
+    "options": [
+      { "answer": "Michael Schumacher", "isCorrect": false },
+      { "answer": "Kimi Räikkönen", "isCorrect": true },
+      { "answer": "Sebastian Vettel", "isCorrect": false },
+      { "answer": "Fernando Alonso", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 43,
+    "question": "¿Qué piloto sufrió un accidente en la vuelta de calentamiento en el Gran Premio de Brasil en 2003?",
+    "options": [
+      { "answer": "Michael Schumacher", "isCorrect": false },
+      { "answer": "Fernando Alonso", "isCorrect": false },
+      { "answer": "Juan Pablo Montoya", "isCorrect": true },
+      { "answer": "Jenson Button", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 44,
+    "question": "¿Qué circuito alberga el Gran Premio de Australia?",
+    "options": [
+      { "answer": "Albert Park", "isCorrect": true },
+      { "answer": "Silverstone", "isCorrect": false },
+      { "answer": "Yas Marina", "isCorrect": false },
+      { "answer": "Interlagos", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 45,
+    "question": "¿Quién fue el último piloto de McLaren en ganar un campeonato de pilotos?",
+    "options": [
+      { "answer": "Lewis Hamilton", "isCorrect": true },
+      { "answer": "Jenson Button", "isCorrect": false },
+      { "answer": "Fernando Alonso", "isCorrect": false },
+      { "answer": "Kimi Räikkönen", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 46,
+    "question": "¿Qué piloto fue famoso por su apodo 'El Profesor'?",
+    "options": [
+      { "answer": "Alain Prost", "isCorrect": true },
+      { "answer": "Niki Lauda", "isCorrect": false },
+      { "answer": "Jackie Stewart", "isCorrect": false },
+      { "answer": "Juan Manuel Fangio", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 47,
+    "question": "¿En qué año se introdujo el sistema DRS en la Fórmula 1?",
+    "options": [
+      { "answer": "2011", "isCorrect": true },
+      { "answer": "2010", "isCorrect": false },
+      { "answer": "2012", "isCorrect": false },
+      { "answer": "2009", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 48,
+    "question": "¿Qué piloto tiene el récord de más victorias en el Gran Premio de Canadá?",
+    "options": [
+      { "answer": "Michael Schumacher", "isCorrect": false },
+      { "answer": "Lewis Hamilton", "isCorrect": true },
+      { "answer": "Sebastian Vettel", "isCorrect": false },
+      { "answer": "Nelson Piquet", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 49,
+    "question": "¿Quién fue el primer piloto de Fórmula 1 en ganar el campeonato con motor turbo?",
+    "options": [
+      { "answer": "Nelson Piquet", "isCorrect": true },
+      { "answer": "Ayrton Senna", "isCorrect": false },
+      { "answer": "Alain Prost", "isCorrect": false },
+      { "answer": "Nigel Mansell", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 50,
+    "question": "¿Qué piloto tiene el récord de más puntos en una temporada de Fórmula 1?",
+    "options": [
+      { "answer": "Max Verstappen", "isCorrect": true },
+      { "answer": "Lewis Hamilton", "isCorrect": false },
+      { "answer": "Sebastian Vettel", "isCorrect": false },
+      { "answer": "Fernando Alonso", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 51,
+    "question": "¿Quién fue el primer piloto español en ganar una carrera de Fórmula 1?",
+    "options": [
+      { "answer": "Carlos Sainz", "isCorrect": false },
+      { "answer": "Fernando Alonso", "isCorrect": true },
+      { "answer": "Pedro de la Rosa", "isCorrect": false },
+      { "answer": "Alfonso de Portago", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 52,
+    "question": "¿Qué equipo ganó el primer campeonato de constructores en 1958?",
+    "options": [
+      { "answer": "Ferrari", "isCorrect": false },
+      { "answer": "Lotus", "isCorrect": false },
+      { "answer": "Vanwall", "isCorrect": true },
+      { "answer": "Cooper", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 53,
+    "question": "¿Qué piloto ganó más carreras en la temporada 2022 de Fórmula 1?",
+    "options": [
+      { "answer": "Charles Leclerc", "isCorrect": false },
+      { "answer": "Sergio Pérez", "isCorrect": false },
+      { "answer": "Max Verstappen", "isCorrect": true },
+      { "answer": "Lewis Hamilton", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 54,
+    "question": "¿Qué equipo ha tenido la mayor cantidad de 'dobletes' (primer y segundo lugar) en la historia de la Fórmula 1?",
+    "options": [
+      { "answer": "Mercedes", "isCorrect": true },
+      { "answer": "Ferrari", "isCorrect": false },
+      { "answer": "Red Bull", "isCorrect": false },
+      { "answer": "McLaren", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 55,
+    "question": "¿Cuál es el circuito más largo en el calendario actual de la Fórmula 1?",
+    "options": [
+      { "answer": "Spa-Francorchamps", "isCorrect": true },
+      { "answer": "Silverstone", "isCorrect": false },
+      { "answer": "Suzuka", "isCorrect": false },
+      { "answer": "Monza", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 56,
+    "question": "¿Qué piloto se retiró del Gran Premio de Brasil de 2008 mientras celebraba su victoria anticipada?",
+    "options": [
+      { "answer": "Felipe Massa", "isCorrect": true },
+      { "answer": "Sebastian Vettel", "isCorrect": false },
+      { "answer": "Robert Kubica", "isCorrect": false },
+      { "answer": "Nick Heidfeld", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 57,
+    "question": "¿En qué circuito se disputa el Gran Premio de Rusia?",
+    "options": [
+      { "answer": "Sochi Autodrom", "isCorrect": true },
+      { "answer": "Mugello", "isCorrect": false },
+      { "answer": "Circuito de Imola", "isCorrect": false },
+      { "answer": "Circuit de Barcelona-Catalunya", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 58,
+    "question": "¿Qué piloto sufrió un accidente fatal durante el Gran Premio de San Marino de 1994?",
+    "options": [
+      { "answer": "Ayrton Senna", "isCorrect": true },
+      { "answer": "Roland Ratzenberger", "isCorrect": false },
+      { "answer": "Jules Bianchi", "isCorrect": false },
+      { "answer": "Niki Lauda", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 59,
+    "question": "¿Qué escudería fue la primera en introducir el sistema de suspensión activa en la Fórmula 1?",
+    "options": [
+      { "answer": "Williams", "isCorrect": true },
+      { "answer": "Ferrari", "isCorrect": false },
+      { "answer": "Lotus", "isCorrect": false },
+      { "answer": "McLaren", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 60,
+    "question": "¿Qué piloto fue apodado 'Il Leone' por los aficionados italianos?",
+    "options": [
+      { "answer": "Nigel Mansell", "isCorrect": true },
+      { "answer": "Michael Schumacher", "isCorrect": false },
+      { "answer": "Alain Prost", "isCorrect": false },
+      { "answer": "Sebastian Vettel", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 61,
+    "question": "¿Qué piloto ganó su último campeonato mundial en 1991?",
+    "options": [
+      { "answer": "Ayrton Senna", "isCorrect": true },
+      { "answer": "Alain Prost", "isCorrect": false },
+      { "answer": "Nigel Mansell", "isCorrect": false },
+      { "answer": "Nelson Piquet", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 62,
+    "question": "¿Qué fabricante de motores suministró a Red Bull Racing antes de cambiar a motores Honda?",
+    "options": [
+      { "answer": "Renault", "isCorrect": true },
+      { "answer": "Ferrari", "isCorrect": false },
+      { "answer": "Mercedes", "isCorrect": false },
+      { "answer": "Cosworth", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 63,
+    "question": "¿En qué circuito ganó Fernando Alonso su primera carrera en 2003?",
+    "options": [
+      { "answer": "Hungaroring", "isCorrect": true },
+      { "answer": "Monza", "isCorrect": false },
+      { "answer": "Suzuka", "isCorrect": false },
+      { "answer": "Spa-Francorchamps", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 64,
+    "question": "¿Qué piloto es conocido por su apodo 'Iceman'?",
+    "options": [
+      { "answer": "Kimi Räikkönen", "isCorrect": true },
+      { "answer": "Sebastian Vettel", "isCorrect": false },
+      { "answer": "Lewis Hamilton", "isCorrect": false },
+      { "answer": "David Coulthard", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 65,
+    "question": "¿Qué piloto sufrió un accidente espectacular en el Gran Premio de Bahrein de 2020, escapando de su coche en llamas?",
+    "options": [
+      { "answer": "Romain Grosjean", "isCorrect": true },
+      { "answer": "Kevin Magnussen", "isCorrect": false },
+      { "answer": "Sergio Pérez", "isCorrect": false },
+      { "answer": "Lance Stroll", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 66,
+    "question": "¿Qué piloto se convirtió en campeón mundial tras ganar el Gran Premio de Abu Dhabi 2021 en la última vuelta?",
+    "options": [
+      { "answer": "Max Verstappen", "isCorrect": true },
+      { "answer": "Lewis Hamilton", "isCorrect": false },
+      { "answer": "Sebastian Vettel", "isCorrect": false },
+      { "answer": "Valtteri Bottas", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 67,
+    "question": "¿Cuál es el equipo más antiguo de Fórmula 1 que aún compite?",
+    "options": [
+      { "answer": "Ferrari", "isCorrect": true },
+      { "answer": "McLaren", "isCorrect": false },
+      { "answer": "Williams", "isCorrect": false },
+      { "answer": "Lotus", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 68,
+    "question": "¿En qué año se introdujo el halo de protección para los pilotos en la Fórmula 1?",
+    "options": [
+      { "answer": "2018", "isCorrect": true },
+      { "answer": "2017", "isCorrect": false },
+      { "answer": "2019", "isCorrect": false },
+      { "answer": "2020", "isCorrect": false }
+    ]
+  },
+  {
+    "question_id": 69,
+    "question": "¿Qué piloto se convirtió en el más joven en ganar un Gran Premio en la historia de la Fórmula 1?",
+    "options": [
+      { "answer": "Max Verstappen", "isCorrect": true },
+      { "answer": "Sebastian Vettel", "isCorrect": false },
+      { "answer": "Lewis Hamilton", "isCorrect": false },
+      { "answer": "Fernando Alonso", "isCorrect": false }
+    ]
+  }
+]
