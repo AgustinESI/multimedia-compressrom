@@ -1,0 +1,27 @@
+{
+  "home.title": "Upload and compress Image",
+  "home.subtitle": "Subtitle",
+  "home.compression.quality": "Compression Quality",
+  "home.compression.factor": "Compression Factor",
+  "home.size.after": "Size in bytes was:",
+  "home.size.before": "Size in bytes is now:",
+  "home.accordion.title": "Why is there a difference in image size?",
+  "home.accordion.p1": "The difference in size by several bytes between the reported size of the compressed image and the size of the downloaded file can be attributed to several factors:",
+  "home.accordion.p2": "<strong>1. Base64 Encoding:</strong> The conversion to a data URL format uses Base64 encoding, which increases the size by approximately 33%. Therefore, the reported size might include this overhead.",
+  "home.accordion.p3": "<strong>2. Differences in Calculation Methods:</strong> The method <code>byteCount</code> may not correctly calculate the size of the Base64 string, resulting in a larger value than the actual size of the downloaded file.",
+  "home.accordion.p4": " <strong>3. Quality and Compression:</strong> The compression of the image, especially if lossy, can reduce its size. Quality settings also affect the final size.",
+  "home.accordion.p5": " <strong>4. Output Format:</strong> The final file size may vary depending on the image format (JPG, PNG) and the included metadata.",
+  "home.accordion.p6": " <strong>5. Browser Interactions:</strong> Browser-specific factors may influence how the file size is saved and handled during download, such as additional compression or the removal of metadata.",
+  "home.accordion.p7": "In summary, the size discrepancy is mainly due to encoding, the quality of compression, and how sizes are calculated and handled in different formats.",
+
+  "quizz.title": "F1 IS BACK. AND IT’S ALL TO DRIVE FOR.",
+  "quizz.subtitle": "Test your knowledge with challenging Formula 1 trivia questions. Dive into the world of F1 history, drivers, teams, and iconic moments!",
+  "quizz.question.title": "F1 Quizz Application",
+  "quizz.results.title": "Results",
+  "quizz.correct.answers": "You have 0 correct answers",
+  "quizz.incorrect.answers": "You have 0 errors",
+
+  "button.upload.image": "Upload Image",
+  "button.download": "Download",
+  "button.clear": "Clear"
+}

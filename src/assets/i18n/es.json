@@ -1,0 +1,22 @@
+{
+  "home.title": "Subir y comprimir imagen",
+  "home.subtitle": "Subtítulo",
+  "home.compression.quality": "Calidad de compresión",
+  "home.compression.factor": "Factor de compresión",
+  "home.size.after": "El tamaño en bytes era:",
+  "home.size.before": "El tamaño en bytes es ahora:",
+  "home.accordion.title": "¿Por qué hay una diferencia en el tamaño de la imagen?",
+  "home.accordion.p1": "La diferencia de tamaño de varios bytes entre el tamaño reportado de la imagen comprimida y el tamaño del archivo descargado se puede atribuir a varios factores:",
+  "home.accordion.p2": "<strong>1. Codificación Base64:</strong> La conversión al formato de URL de datos utiliza la codificación Base64, lo que aumenta el tamaño en aproximadamente un 33%. Por lo tanto, el tamaño reportado puede incluir este margen.",
+  "home.accordion.p3": "<strong>2. Diferencias en los métodos de cálculo:</strong> El método <code>byteCount</code> puede no calcular correctamente el tamaño de la cadena Base64, lo que resulta en un valor mayor que el tamaño real del archivo descargado.",
+  "home.accordion.p4": "<strong>3. Calidad y compresión:</strong> La compresión de la imagen, especialmente si es con pérdida, puede reducir su tamaño. Las configuraciones de calidad también afectan el tamaño final.",
+  "home.accordion.p5": "<strong>4. Formato de salida:</strong> El tamaño final del archivo puede variar según el formato de la imagen (JPG, PNG) y los metadatos incluidos.",
+  "home.accordion.p6": "<strong>5. Interacciones del navegador:</strong> Factores específicos del navegador pueden influir en cómo se guarda y maneja el tamaño del archivo durante la descarga, como compresiones adicionales o la eliminación de metadatos.",
+  "home.accordion.p7": "En resumen, la discrepancia de tamaño se debe principalmente a la codificación, la calidad de la compresión y cómo se calculan y manejan los tamaños en diferentes formatos.",
+
+ 
+
+  "button.upload.image": "Subir imagen",
+  "button.download": "Descargar",
+  "button.clear": "Limpiar"
+}

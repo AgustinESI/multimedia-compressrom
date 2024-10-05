@@ -3,8 +3,14 @@
 }
 
 .hover-success:hover {
-  background-color: #28a745 !important;
-  border-color: #28a745 !important;
+  background-color: #e10600;
+  border-color: #e10600;
+  color: white;
+}
+
+.ok:hover {
+  background-color: green;
+  border-color: green;
   color: white;
 }
 
@@ -47,12 +53,155 @@
 }
 
 .on {
-  background: red !important;
+  background: #e10600 !important;
+}
+
+.parallax {
+  background-image: url(../../../assets/Header-Bahrain-Alt-2.avif);
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+  font-size: 5rem;
+  z-index: 1;
+  width: 55%;
+  font-family: "Formula1-Bold", sans-serif;
+}
+
+.overlay {
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.subtitle {
+  color: white;
+  font-size: 2rem;
+  margin-top: 0;
+  width: 70%;
+  font-family: "Formula1-Regular", sans-serif;
 }
 
 .bg-gray3Pattern {
   background-image: url(../../../assets/gray3-x2.png);
   background-size: 30px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 80px;
+  height: fit-content;
+}
+
+h3 {
+  font-family: "Formula1-Bold", sans-serif;
+}
+
+* {
+  font-family: "Formula1-Regular", sans-serif;
+}
+
+.f1-red {
+  background-color: #e10600;
+  color: white;
+}
+
+.f1-grey {
+  background-color: #15151e;
+  color: white;
+}
+
+@font-face {
+  font-family: "Formula1-Regular";
+  src: url(../../../assets/fonts/Formula1-Regular.otf);
+}
+
+@font-face {
+  font-family: "Formula1-Bold";
+  src: url(../../../assets/fonts/Formula1-Bold.otf);
+}
+
+@font-face {
+  font-family: "Formula1-Wide";
+  src: url(../../../assets/fonts/Formula1-Wide.otf);
+}
+
+.p-lost {
+  z-index: 666;
+  padding: 10px;
+  background-color: white;
+}
+.custom-fieldset {
+  border-top: 10px solid #e10600;
+  border-right: 10px solid #e10600;
+  border-bottom: 10px solid #e10600;
+  border-left: none;
+  border-radius: 0 1.625rem 1.625rem 0;
+  padding: 10px;
+  margin: 20px;
+}
+
+.custom-fieldset legend {
+  font-weight: bold;
+  color: white;
+}
+
+.lost {
+  position: relative;
+  padding: 20px;
+  color: red;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.lost::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(
+    45deg,
+    #15151e 25%,
+    white 25%,
+    white 50%,
+    #15151e 50%,
+    #15151e 75%,
+    white 75%,
+    white 100%
+  );
+  background-size: 50px 50px;
+  z-index: 0;
+}
+
+.message {
+  background-image: url(../../../assets/finish.webp);
+  background-size: contain;
+  background-repeat: repeat;
+  background-position: center;
+  z-index: 0;
+}
+
+.message-text {
+  color: black;
+  background-color: #e10600;
+  width: auto;
+  display: inline-block;
+}
+
+.non_visibility {
+  visibility: hidden;
 }

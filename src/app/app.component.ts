@@ -9,15 +9,15 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
   constructor(
-    //private translateService: TranslateService,
+    private translateService: TranslateService,
     private router: Router
   ) {
-    //this.translateService.setDefaultLang('es');
-    //this.translateService.use(localStorage.getItem('lang') || 'es');
+    this.translateService.setDefaultLang('en');
+    this.translateService.use(localStorage.getItem('lang') || 'en');
   }
   title = 'multimedia-compressrom';
 
   ngOnInit() {
-    this.router.navigate(['/games']);
+    this.router.navigate(['/circuits']);
   }
 }

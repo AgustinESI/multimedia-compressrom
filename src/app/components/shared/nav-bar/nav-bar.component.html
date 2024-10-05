@@ -22,4 +22,19 @@
       </li>
     </ul>
   </div>
+
+  <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+      <select
+        name="select-language"
+        id="select-language"
+        class="form-select"
+        (change)="changeLang($event)"
+      >
+    
+      <option [selected]="lang==='en'" value="en">English</option>
+      <option [selected]="lang==='es'" value="es">Español</option>
+    </select>
+    </li>
+  </ul>
 </nav>

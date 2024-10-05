@@ -15,20 +15,20 @@ export class GameComponent {
   public questions: Question[] = [];
   public quizQuestions: Question[] = [];
   private counter: number = 0;
-  private errors: number = 0;
+  public errors: number = 0;
+  public goods: number = 0;
   public currentQuestion: number = 0;
   public ligths: number = 0;
+  public message: string = '';
+  private audio: HTMLAudioElement = new Audio();
 
   ngOnInit() {
     this.loadData();
-
-    //for (let i = 0; i < 7; i++) {
     this.switchOnLights();
-    //}
   }
 
   loadData() {
-    var path = '../../../assets/drivers.json';
+    var path = '../../../assets/data/drivers.json';
 
     /*
     this.driverService.getDataDrivers(path).subscribe(
@@ -45,7 +45,6 @@ export class GameComponent {
     this.driverService.getQuestions(path).subscribe(
       (data: Question[]) => {
         this.questions = data;
-
         this.generateQuizzQuestions();
       },
       (error) => {
@@ -71,19 +70,37 @@ export class GameComponent {
   }
 
   protected validateAnswer(isCorrect: boolean) {
-    if (this.currentQuestion < 10) {
-      if (isCorrect) {
-        this.counter++;
+    if (this.currentQuestion < 9) {
+      if (this.errors >= 3) {
+        this.message = 'You have lost the race.';
+        this.currentQuestion = 10;
       } else {
-        this.errors++;
+        if (isCorrect) {
+          this.goods++;
+        } else {
+          this.errors++;
+        }
+        this.currentQuestion++;
       }
-      this.currentQuestion++;
-      console.log('Counter', this.counter);
-      console.log('Error:', this.errors);
-      console.log('currentQuestion:', this.currentQuestion);
     } else {
-      alert('EndGame');
+      if (this.errors >= 3) {
+        this.message = 'You have lost the race.';
+      } else {
+        this.message = 'YOU ARE THE WINNER!';
+
+        const path = '../../../assets/f1-audio.mp3';
+        this.playAudio(path);
+      }
     }
+  }
+
+  private playAudio(path: string): void {
+    this.audio.src = path;
+    this.audio.play();
+    setTimeout(() => {
+      this.audio.pause();
+      this.audio.currentTime = 0;
+    }, 10000);
   }
 
   private generateQuizzQuestions() {

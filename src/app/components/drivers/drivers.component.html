@@ -1,0 +1,105 @@
+<div class="container pt-5">
+  <h2>F1 Drivers 2024</h2>
+
+  <div class="subtitle-section">
+    <p>
+      Check out this season's official <strong>F1</strong> line-up. Full
+      breakdown of drivers, points and current positions. Follow your favourite
+      F1 drivers on and off the track.
+    </p>
+  </div>
+
+  <section class="search-section m-2">
+    <div class="row">
+      <div class="col-xl-2">
+        <select
+          class="form-select form-select-sm"
+          aria-label=".form-select-sm example"
+          (change)="onchangeType($event)"
+        >
+          <option selected>Type</option>
+          <option value="name">Name</option>
+          <option value="scuderia">Scuderia</option>
+        </select>
+      </div>
+      <div class="col-xl-2">
+        <select
+          class="form-select form-select-sm"
+          aria-label=".form-select-sm example"
+          (change)="onchangeScuderia($event)"
+        >
+          <option selected>Scuderia</option>
+          <option value="Red Bull Racing">Red Bull Racing</option>
+          <option value="Mercedes">Mercedes</option>
+          <option value="Ferrari">Ferrari</option>
+          <option value="McLaren">McLaren</option>
+          <option value="Aston Martin">Aston Martin</option>
+          <option value="Alpine">Alpine</option>
+          <option value="Williams">Williams</option>
+          <option value="AlphaTauri">AlphaTauri</option>
+          <option value="Sauber">Sauber</option>
+          <option value="Haas">Haas</option>
+        </select>
+      </div>
+      <div class="col-xl-6">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Username"
+          aria-label="Username"
+          aria-describedby="basic-addon1"
+          [(ngModel)]="chain"
+        />
+      </div>
+      <div class="col-xl-2">
+        <button (click)="doFilter()" class="btn f1-red w-100">Search</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="row" *ngIf="drivers && drivers.length > 0">
+    <div *ngFor="let driver of filteredDrivers" class="col-xl-3 col-md-4">
+      <fieldset class="custom-fieldset">
+        <legend>
+          <div class="row">
+            <div class="col-6">
+              <h3>{{ driver.number }}</h3>
+            </div>
+            <div class="col-6">
+              <span class="badge bg-secondary">{{ driver.points }} pts</span>
+            </div>
+          </div>
+        </legend>
+        <hr />
+        <div class="row">
+          <div class="col-xl-8">
+            <div class="name-driver">
+              <div class="driver-name">{{ driver.name }}</div>
+              <div class="driver-surname">{{ driver.surname }}</div>
+            </div>
+          </div>
+          <div class="col-xl-4">
+            <img
+              class="flag"
+              src="https://media.formula1.com/d_default_fallback_image.png/content/dam/fom-website/flags/{{
+                driver.country
+              }}.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <hr />
+        <div class="row mb-2">
+          <span class="team-name">{{ driver.scuderia }}</span>
+        </div>
+        <div class="driver-row row justify-content-center align-items-center">
+          <img
+            class="driver"
+            src="../../../assets/drivers/{{ driver.image }}"
+            alt=""
+          />
+        </div>
+      </fieldset>
+    </div>
+  </div>
+</div>

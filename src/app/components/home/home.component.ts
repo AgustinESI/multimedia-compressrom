@@ -7,13 +7,14 @@ import {
   UploadResponse,
 } from 'ngx-image-compress';
 import { FormsModule } from '@angular/forms';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css'],
   standalone: true,
-  imports: [CommonModule, NgxImageCaptureModule, FormsModule],
+  imports: [CommonModule, NgxImageCaptureModule, FormsModule, TranslateModule],
   providers: [NgxImageCompressService],
 })
 export class HomeComponent {

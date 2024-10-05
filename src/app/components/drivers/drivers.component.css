@@ -1,0 +1,134 @@
+h1 {
+  color: black;
+  font-size: 5rem;
+  z-index: 1;
+  width: 55%;
+  font-family: "Formula1-Bold", sans-serif;
+}
+
+h2 {
+  color: black;
+  font-size: 3rem;
+  z-index: 1;
+  font-family: "Formula1-Bold", sans-serif;
+}
+
+.name-driver {
+  border-left: 5px solid #15151e;
+  padding-left: 10px;
+}
+
+.subtitle {
+  color: black;
+  font-size: 2rem;
+  margin-top: 0;
+  width: 70%;
+  font-family: "Formula1-Regular", sans-serif;
+}
+
+.bg-gray3Pattern {
+  background-image: url(../../../assets/gray3-x2.png);
+  background-size: 30px;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  height: fit-content;
+}
+
+h3 {
+  font-family: "Formula1-Bold", sans-serif;
+}
+
+* {
+  font-family: "Formula1-Regular", sans-serif;
+}
+
+.f1-red {
+  background-color: #e10600;
+  color: white;
+}
+
+.f1-red:hover {
+  background-color: white;
+  color: black;
+  border-color: #e10600;
+}
+
+.f1-grey {
+  background-color: #15151e;
+  color: white;
+}
+
+@font-face {
+  font-family: "Formula1-Regular";
+  src: url(../../../assets/fonts/Formula1-Regular.otf);
+}
+
+@font-face {
+  font-family: "Formula1-Bold";
+  src: url(../../../assets/fonts/Formula1-Bold.otf);
+}
+
+@font-face {
+  font-family: "Formula1-Wide";
+  src: url(../../../assets/fonts/Formula1-Wide.otf);
+}
+
+.p-lost {
+  z-index: 666;
+  padding: 10px;
+  background-color: white;
+}
+.custom-fieldset {
+  border-top: 5px solid #e10600;
+  border-right: 5px solid #e10600;
+  border-bottom: 5px solid #e10600;
+  border-left: none;
+  border-radius: 0 1.625rem 1.625rem 0;
+  padding: 10px 10px 0px 10px;
+  margin: 20px;
+}
+
+.flag {
+  height: 25px;
+  width: 35px;
+  border-radius: 4px;
+}
+
+.team {
+  height: 40px;
+  width: 40px;
+}
+
+.driver {
+  width: 150px;
+  height: 200px;
+}
+
+.team-name {
+  font-size: 0.8rem;
+  color: #8d8d8d;
+}
+
+.driver-name {
+  font-size: 0.8rem;
+}
+
+.driver-surname {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+.driver-row {
+  background-image: url(../../../assets/gray3-x2.png);
+  background-size: 30px;
+  border-radius: 0 1.625rem 1.625rem 0;
+}
+
+.subtitle-section {
+  background-color: #f3f3f3;
+  padding: 1.25rem;
+  border-radius: 0.625rem;
+  font-size: 0.8rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

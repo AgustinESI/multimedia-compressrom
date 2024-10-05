@@ -5,8 +5,9 @@
     "dob": "1997-09-30",
     "scuderia": "Red Bull Racing",
     "image": "verstappen.png",
-    "image-gold-no-name": "verstappen-gold-no-name.png",
-    "image-gold-name": "verstappen-gold-name.png"
+    "points": 331,
+    "number": 1,
+    "country": "Netherlands"
   },
   {
     "name": "Sergio",
@@ -14,8 +15,9 @@
     "dob": "1990-01-26",
     "scuderia": "Red Bull Racing",
     "image": "perez.png",
-    "image-gold-no-name": "perez-gold-no-name.png",
-    "image-gold-name": "perez-gold-name.png"
+    "points": 144,
+    "number": 11,
+    "country": "Mexico"
   },
   {
     "name": "Lewis",
@@ -23,8 +25,9 @@
     "dob": "1985-01-07",
     "scuderia": "Mercedes",
     "image": "hamilton.png",
-    "image-gold-no-name": "hamilton-gold-no-name.png",
-    "image-gold-name": "hamilton-gold-name.png"
+    "points": 174,
+    "number": 44,
+    "country": "United Kingdom"
   },
   {
     "name": "George",
@@ -32,8 +35,9 @@
     "dob": "1998-02-15",
     "scuderia": "Mercedes",
     "image": "russell.png",
-    "image-gold-no-name": "russell-gold-no-name.png",
-    "image-gold-name": "russell-gold-name.png"
+    "points": 155,
+    "number": 63,
+    "country": "United Kingdom"
   },
   {
     "name": "Charles",
@@ -41,8 +45,9 @@
     "dob": "1997-10-16",
     "scuderia": "Ferrari",
     "image": "leclerc.png",
-    "image-gold-no-name": "leclerc-gold-no-name.png",
-    "image-gold-name": "leclerc-gold-name.png"
+    "points": 245,
+    "number": 16,
+    "country": "Monaco"
   },
   {
     "name": "Carlos",
@@ -50,8 +55,9 @@
     "dob": "1994-09-01",
     "scuderia": "Ferrari",
     "image": "sainz.png",
-    "image-gold-no-name": "sainz-gold-no-name.png",
-    "image-gold-name": "sainz-gold-name.png"
+    "points": 190,
+    "number": 55,
+    "country": "Spain"
   },
   {
     "name": "Lando",
@@ -59,8 +65,9 @@
     "dob": "1999-11-13",
     "scuderia": "McLaren",
     "image": "norris.png",
-    "image-gold-no-name": "norris-gold-no-name.png",
-    "image-gold-name": "norris-gold-name.png"
+    "points": 279,
+    "number": 4,
+    "country": "United Kingdom"
   },
   {
     "name": "Oscar",
@@ -68,8 +75,9 @@
     "dob": "2001-04-06",
     "scuderia": "McLaren",
     "image": "piastri.png",
-    "image-gold-no-name": "piastri-gold-no-name.png",
-    "image-gold-name": "piastri-gold-name.png"
+    "points": 237,
+    "number": 81,
+    "country": "Australia"
   },
   {
     "name": "Fernando",
@@ -77,8 +85,9 @@
     "dob": "1981-07-29",
     "scuderia": "Aston Martin",
     "image": "alonso.png",
-    "image-gold-no-name": "alonso-gold-no-name.png",
-    "image-gold-name": "alonso-gold-name.png"
+    "points": 14,
+    "number": 62,
+    "country": "Spain"
   },
   {
     "name": "Lance",
@@ -86,8 +95,9 @@
     "dob": "1998-10-29",
     "scuderia": "Aston Martin",
     "image": "stroll.png",
-    "image-gold-no-name": "stroll-gold-no-name.png",
-    "image-gold-name": "stroll-gold-name.png"
+    "points": 24,
+    "number": 18,
+    "country": "Canada"
   },
   {
     "name": "Esteban",
@@ -95,8 +105,9 @@
     "dob": "1996-09-17",
     "scuderia": "Alpine",
     "image": "ocon.png",
-    "image-gold-no-name": "ocon-gold-no-name.png",
-    "image-gold-name": "ocon-gold-name.png"
+    "points": 5,
+    "number": 31,
+    "country": "France"
   },
   {
     "name": "Pierre",
@@ -104,8 +115,9 @@
     "dob": "1996-02-07",
     "scuderia": "Alpine",
     "image": "gasly.png",
-    "image-gold-no-name": "gasly-gold-no-name.png",
-    "image-gold-name": "gasly-gold-name.png"
+    "points": 8,
+    "number": 10,
+    "country": "France"
   },
   {
     "name": "Alexander",
@@ -113,8 +125,9 @@
     "dob": "1996-03-23",
     "scuderia": "Williams",
     "image": "albon.png",
-    "image-gold-no-name": "albon-gold-no-name.png",
-    "image-gold-name": "albon-gold-name.png"
+    "points": 12,
+    "number": 23,
+    "country": "Thailand"
   },
   {
     "name": "Logan",
@@ -122,8 +135,9 @@
     "dob": "2000-12-31",
     "scuderia": "Williams",
     "image": "colapinto.png",
-    "image-gold-no-name": "colapinto-gold-no-name.png",
-    "image-gold-name": "colapinto-gold-name.png"
+    "points": 4,
+    "number": 43,
+    "country": "USA"
   },
   {
     "name": "Daniel",
@@ -131,8 +145,9 @@
     "dob": "1989-07-01",
     "scuderia": "AlphaTauri",
     "image": "ricciardo.png",
-    "image-gold-no-name": "ricciardo-gold-no-name.png",
-    "image-gold-name": "ricciardo-gold-name.png"
+    "points": 12,
+    "number": 3,
+    "country": "Australia"
   },
   {
     "name": "Yuki",
@@ -140,8 +155,9 @@
     "dob": "2000-05-11",
     "scuderia": "AlphaTauri",
     "image": "tsunoda.png",
-    "image-gold-no-name": "tsunoda-gold-no-name.png",
-    "image-gold-name": "tsunoda-gold-name.png"
+    "points": 22,
+    "number": 22,
+    "country": "Japan"
   },
   {
     "name": "Valtteri",
@@ -149,8 +165,9 @@
     "dob": "1989-08-28",
     "scuderia": "Sauber",
     "image": "bottas.png",
-    "image-gold-no-name": "bottas-gold-no-name.png",
-    "image-gold-name": "bottas-gold-name.png"
+    "points": 0,
+    "number": 77,
+    "country": "Finland"
   },
   {
     "name": "Zhou",
@@ -158,8 +175,9 @@
     "dob": "1999-05-30",
     "scuderia": "Sauber",
     "image": "zhou.png",
-    "image-gold-no-name": "zhou-gold-no-name.png",
-    "image-gold-name": "zhou-gold-name.png"
+    "points": 0,
+    "number": 24,
+    "country": "China"
   },
   {
     "name": "Kevin",
@@ -167,8 +185,9 @@
     "dob": "1992-10-05",
     "scuderia": "Haas",
     "image": "magnussen.png",
-    "image-gold-no-name": "magnussen-gold-no-name.png",
-    "image-gold-name": "magnussen-gold-name.png"
+    "points": 6,
+    "number": 17,
+    "country": "Denmark"
   },
   {
     "name": "Nico",
@@ -176,7 +195,8 @@
     "dob": "1987-08-19",
     "scuderia": "Haas",
     "image": "hulkenberg.png",
-    "image-gold-no-name": "hulkenberg-gold-no-name.png",
-    "image-gold-name": "hulkenberg-gold-name.png"
+    "points": 24,
+    "number": 27,
+    "country": "Germany"
   }
 ]

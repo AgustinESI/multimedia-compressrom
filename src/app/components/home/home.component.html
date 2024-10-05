@@ -1,18 +1,21 @@
 <div class="container d-flex justify-content-center">
-  <div class="card wd-card" [ngClass]="{'loading': isLoading}">
+  <div class="card wd-card" [ngClass]="{ loading: isLoading }">
     <div class="card-body">
-      <h5 class="card-title">Upload and compress Image</h5>
-      <h6 class="card-subtitle mb-2 text-muted">Observaciones</h6>
+      <h5 class="card-title">{{ "home.title" | translate }}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">
+        {{ "home.subtitle" | translate }}
+      </h6>
       <div class="card-text">
-
-     
-        <div class="overlay justify-content-center align-items-center" *ngIf="isLoading">
-            <img
-              src="../../../assets/windows-error-virus-alert.gif"
-              style="width: 35%"
-              alt="Loading..."
-            />
-          </div>
+        <div
+          class="overlay justify-content-center align-items-center"
+          *ngIf="isLoading"
+        >
+          <img
+            src="../../../assets/windows-error-virus-alert.gif"
+            style="width: 35%"
+            alt="Loading..."
+          />
+        </div>
 
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
@@ -25,7 +28,7 @@
                 aria-expanded="false"
                 aria-controls="collapseOne"
               >
-                Why is there a difference in image size?
+                {{ "home.accordion.title" | translate }}
               </button>
             </h2>
             <div
@@ -35,45 +38,13 @@
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                <p>
-                  The difference in size by several bytes between the reported
-                  size of the compressed image
-                  (<code>imgResultAfterCompressSize</code>) and the size of the
-                  downloaded file can be attributed to several factors:
-                </p>
-                <p>
-                  <strong>1. Base64 Encoding:</strong> The conversion to a data
-                  URL format uses Base64 encoding, which increases the size by
-                  approximately 33%. Therefore, the reported size might include
-                  this overhead.
-                </p>
-                <p>
-                  <strong>2. Differences in Calculation Methods:</strong> The
-                  method <code>byteCount</code> may not correctly calculate the
-                  size of the Base64 string, resulting in a larger value than
-                  the actual size of the downloaded file.
-                </p>
-                <p>
-                  <strong>3. Quality and Compression:</strong> The compression
-                  of the image, especially if lossy, can reduce its size.
-                  Quality settings also affect the final size.
-                </p>
-                <p>
-                  <strong>4. Output Format:</strong> The final file size may
-                  vary depending on the image format (JPG, PNG) and the included
-                  metadata.
-                </p>
-                <p>
-                  <strong>5. Browser Interactions:</strong> Browser-specific
-                  factors may influence how the file size is saved and handled
-                  during download, such as additional compression or the removal
-                  of metadata.
-                </p>
-                <p>
-                  In summary, the size discrepancy is mainly due to encoding,
-                  the quality of compression, and how sizes are calculated and
-                  handled in different formats.
-                </p>
+                <p [innerHTML]="'home.accordion.p1' | translate"></p>
+                <p [innerHTML]="'home.accordion.p2' | translate"></p>
+                <p [innerHTML]="'home.accordion.p3' | translate"></p>
+                <p [innerHTML]="'home.accordion.p4' | translate"></p>
+                <p [innerHTML]="'home.accordion.p5' | translate"></p>
+                <p [innerHTML]="'home.accordion.p6' | translate"></p>
+                <p [innerHTML]="'home.accordion.p7' | translate"></p>
               </div>
             </div>
           </div>
@@ -82,7 +53,9 @@
 
       <div class="row mt-4">
         <div class="col-xl-6">
-          <label for="qualityRange">Compression Quality: {{ quality }} %</label>
+          <label for="qualityRange"
+            >{{ "home.compression.quality" | translate }} {{ quality }} %</label
+          >
           <input
             type="range"
             id="qualityRange"
@@ -96,7 +69,9 @@
         </div>
 
         <div class="col-xl-6">
-          <label for="qualityRange">Compression Size: {{ size }} %</label>
+          <label for="qualityRange"
+            >{{ "home.compression.factor" | translate }} {{ size }} %</label
+          >
           <input
             type="range"
             id="qualityRange"
@@ -144,21 +119,21 @@
           class="btn btn-primary mx-2"
           (click)="compressFile()"
         >
-          Upload Image
+          {{ "button.upload.image" | translate }}
         </button>
         <button
           *ngIf="imgResultAfterCompress"
           class="btn btn-success mx-2"
           (click)="download()"
         >
-          Download
+        {{ "button.download" | translate }}
         </button>
         <button
           *ngIf="imgResultAfterCompress"
           class="btn btn-danger mx-2"
           (click)="clear()"
         >
-          Clear
+        {{ "button.clear" | translate }}
         </button>
       </div>
     </div>
