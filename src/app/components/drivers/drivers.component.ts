@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Driver } from '../../models/driver';
 import { DriverService } from '../../services/driver.service';
+import { Circuit } from '../../models/circuit';
 
 @Component({
   selector: 'app-drivers',
@@ -10,6 +11,7 @@ import { DriverService } from '../../services/driver.service';
 export class DriversComponent implements OnInit {
   public drivers: Driver[] = [];
   public filteredDrivers: Driver[] = [];
+  public circuits: Circuit[] = [];
   private typeFilter!: string;
   private scuderiaFilter!: string;
   public chain: string = '';
@@ -27,6 +29,25 @@ export class DriversComponent implements OnInit {
       (data: Driver[]) => {
         this.drivers = data;
         this.filteredDrivers = data;
+      },
+      (error) => {
+        console.error('Error fetching data:', error);
+      }
+    );
+
+    path = '../../../assets/data/circuits.json';
+    this.driverService.getCircuits(path).subscribe(
+      (data: Circuit[]) => {
+        this.circuits = data;
+
+        const currentDate = new Date();
+        this.circuits.forEach((circuit) => {
+          circuit.pass = new Date(circuit.date) < currentDate;
+        });
+
+        this.circuits.sort((a, b) => {
+          return new Date(a.date).getTime() - new Date(b.date).getTime();
+        });
       },
       (error) => {
         console.error('Error fetching data:', error);
@@ -63,6 +84,14 @@ export class DriversComponent implements OnInit {
           break;
       }
     }
+  }
+
+  public circuitsGrouped() {
+    const groups = [];
+    for (let i = 0; i < this.circuits.length; i += 3) {
+      groups.push(this.circuits.slice(i, i + 3));
+    }
+    return groups;
   }
 
   protected onchangeScuderia(value: any) {

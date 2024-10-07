@@ -7,20 +7,23 @@
     "longitude": "144.968",
     "locality": "Melbourne",
     "country": "Australia",
+    "image": "Australia carbon.png",
     "date": "2024-03-24",
-    "time": "04:00:00"
+    "time": "04:00:00",
+    "pass": false
   },
   {
     "circuitName": "Circuit of the Americas",
     "circuitId": "americas",
     "raceName": "United States Grand Prix",
-
     "latitude": "30.1328",
     "longitude": "-97.6411",
     "locality": "Austin",
     "country": "USA",
+    "image": "USA carbon.png",
     "date": "2024-10-20",
-    "time": "19:00:00"
+    "time": "19:00:00",
+    "pass": false
   },
   {
     "circuitName": "Bahrain International Circuit",
@@ -30,8 +33,10 @@
     "longitude": "50.5106",
     "locality": "Sakhir",
     "country": "Bahrain",
+    "image": "Bahrain carbon.png",
     "date": "2024-03-02",
-    "time": "15:00:00"
+    "time": "15:00:00",
+    "pass": false
   },
   {
     "circuitName": "Baku City Circuit",
@@ -41,8 +46,10 @@
     "longitude": "49.8533",
     "locality": "Baku",
     "country": "Azerbaijan",
+    "image": "Azerbaijan carbon.png",
     "date": "2024-09-15",
-    "time": "11:00:00"
+    "time": "11:00:00",
+    "pass": false
   },
   {
     "circuitName": "Circuit de Barcelona-Catalunya",
@@ -52,8 +59,10 @@
     "longitude": "2.26111",
     "locality": "Montmeló",
     "country": "Spain",
+    "image": "Spain carbon.png",
     "date": "2024-06-23",
-    "time": "13:00:00"
+    "time": "13:00:00",
+    "pass": false
   },
   {
     "circuitName": "Hungaroring",
@@ -63,8 +72,10 @@
     "longitude": "19.2486",
     "locality": "Budapest",
     "country": "Hungary",
+    "image": "Hungar carbon.png",
     "date": "2024-07-21",
-    "time": "13:00:00"
+    "time": "13:00:00",
+    "pass": false
   },
   {
     "circuitName": "Autodromo Enzo e Dino Ferrari",
@@ -74,8 +85,10 @@
     "longitude": "11.7167",
     "locality": "Imola",
     "country": "Italy",
+    "image": "Emilia-Romagna carbon.avif",
     "date": "2024-05-19",
-    "time": "13:00:00"
+    "time": "13:00:00",
+    "pass": false
   },
   {
     "circuitName": "Autódromo José Carlos Pace",
@@ -85,8 +98,10 @@
     "longitude": "-46.6997",
     "locality": "São Paulo",
     "country": "Brazil",
+    "image": "Brazil carbon.avif",
     "date": "2024-11-03",
-    "time": "17:00:00"
+    "time": "17:00:00",
+    "pass": false
   },
   {
     "circuitName": "Jeddah Corniche Circuit",
@@ -96,8 +111,10 @@
     "longitude": "39.1044",
     "locality": "Jeddah",
     "country": "Saudi Arabia",
+    "image": "Saudi Arabia carbon.png",
     "date": "2024-03-09",
-    "time": "17:00:00"
+    "time": "17:00:00",
+    "pass": false
   },
   {
     "circuitName": "Losail International Circuit",
@@ -107,8 +124,10 @@
     "longitude": "51.4542",
     "locality": "Al Daayen",
     "country": "Qatar",
+    "image": "Qatar carbon.avif",
     "date": "2024-12-01",
-    "time": "17:00:00"
+    "time": "17:00:00",
+    "pass": false
   },
   {
     "circuitName": "Marina Bay Street Circuit",
@@ -118,8 +137,10 @@
     "longitude": "103.864",
     "locality": "Marina Bay",
     "country": "Singapore",
+    "image": "Singapore carbon.png",
     "date": "2024-09-22",
-    "time": "12:00:00"
+    "time": "12:00:00",
+    "pass": false
   },
   {
     "circuitName": "Miami International Autodrome",
@@ -129,8 +150,10 @@
     "longitude": "-80.2389",
     "locality": "Miami",
     "country": "USA",
+    "image": "Miami carbon.png",
     "date": "2024-05-05",
-    "time": "20:00:00"
+    "time": "20:00:00",
+    "pass": false
   },
   {
     "circuitName": "Circuit de Monaco",
@@ -140,8 +163,10 @@
     "longitude": "7.42056",
     "locality": "Monte-Carlo",
     "country": "Monaco",
+    "image": "Monte Carlo carbon.png",
     "date": "2024-05-26",
-    "time": "13:00:00"
+    "time": "13:00:00",
+    "pass": false
   },
   {
     "circuitName": "Autodromo Nazionale di Monza",
@@ -151,8 +176,10 @@
     "longitude": "9.28111",
     "locality": "Monza",
     "country": "Italy",
+    "image": "Italy carbon.png",
     "date": "2024-09-01",
-    "time": "13:00:00"
+    "time": "13:00:00",
+    "pass": false
   },
   {
     "circuitName": "Red Bull Ring",
@@ -162,8 +189,10 @@
     "longitude": "14.7647",
     "locality": "Spielberg",
     "country": "Austria",
+    "image": "Austria carbon.png",
     "date": "2024-06-30",
-    "time": "13:00:00"
+    "time": "13:00:00",
+    "pass": false
   },
   {
     "circuitName": "Autódromo Hermanos Rodríguez",
@@ -173,8 +202,10 @@
     "longitude": "-99.0907",
     "locality": "Mexico City",
     "country": "Mexico",
+    "image": "Mexico carbon.avif",
     "date": "2024-10-27",
-    "time": "20:00:00"
+    "time": "20:00:00",
+    "pass": false
   },
   {
     "circuitName": "Shanghai International Circuit",
@@ -184,8 +215,10 @@
     "longitude": "121.22",
     "locality": "Shanghai",
     "country": "China",
+    "image": "Mexico carbon.avif",
     "date": "2024-04-21",
-    "time": "07:00:00"
+    "time": "07:00:00",
+    "pass": false
   },
   {
     "circuitName": "Silverstone Circuit",
@@ -195,8 +228,10 @@
     "longitude": "-1.01694",
     "locality": "Silverstone",
     "country": "UK",
+    "image": "Great Britain carbon.png",
     "date": "2024-07-07",
-    "time": "14:00:00"
+    "time": "14:00:00",
+    "pass": false
   },
   {
     "circuitName": "Circuit de Spa-Francorchamps",
@@ -206,8 +241,10 @@
     "longitude": "5.97139",
     "locality": "Spa",
     "country": "Belgium",
+    "image": "Belgium carbon.png",
     "date": "2024-07-28",
-    "time": "13:00:00"
+    "time": "13:00:00",
+    "pass": false
   },
   {
     "circuitName": "Suzuka Circuit",
@@ -217,8 +254,10 @@
     "longitude": "136.541",
     "locality": "Suzuka",
     "country": "Japan",
+    "image": "Japan carbon.png",
     "date": "2024-04-07",
-    "time": "05:00:00"
+    "time": "05:00:00",
+    "pass": false
   },
   {
     "circuitName": "Las Vegas Strip Street Circuit",
@@ -227,9 +266,11 @@
     "latitude": "36.1147",
     "longitude": "-115.173",
     "locality": "Las Vegas",
+    "image": "Las Vegas carbon.avif",
     "country": "United States",
     "date": "2024-11-23",
-    "time": "06:00:00"
+    "time": "06:00:00",
+    "pass": false
   },
   {
     "circuitName": "Circuit Gilles Villeneuve",
@@ -239,8 +280,10 @@
     "longitude": "-73.5228",
     "locality": "Montreal",
     "country": "Canada",
+    "image": "Canada carbon.png",
     "date": "2024-06-09",
-    "time": "18:00:00"
+    "time": "18:00:00",
+    "pass": false
   },
   {
     "circuitName": "Yas Marina Circuit",
@@ -250,8 +293,10 @@
     "longitude": "54.6031",
     "locality": "Abu Dhabi",
     "country": "UAE",
+    "image": "Abu Dhabi carbon.avif",
     "date": "2024-12-08",
-    "time": "13:00:00"
+    "time": "13:00:00",
+    "pass": false
   },
   {
     "circuitName": "Circuit Park Zandvoort",
@@ -261,7 +306,9 @@
     "longitude": "4.54092",
     "locality": "Zandvoort",
     "country": "Netherlands",
+    "image": "Netherlands carbon.png",
     "date": "2024-08-25",
-    "time": "13:00:00"
+    "time": "13:00:00",
+    "pass": false
   }
 ]

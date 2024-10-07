@@ -8,7 +8,73 @@
       F1 drivers on and off the track.
     </p>
   </div>
-
+</div>
+<section
+  class="circuits-section mt-5 mb-5"
+  *ngIf="circuits && circuits.length > 0"
+>
+  <div class="container">
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide carousel-circuit"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div
+          *ngFor="let group of circuitsGrouped(); let i = index"
+          [class]="i === 0 ? 'carousel-item active' : 'carousel-item'"
+        >
+          <div class="d-flex justify-content-around">
+            <div
+              *ngFor="let circuit of group"
+              class="circuit-item"
+              style="width: 25%; padding: 10px"
+            >
+              <div
+                class="circuit-content text-center"
+                style="background-color: white; padding: 10px"
+              >
+                <div class="row d-flex justify-content-center">
+                  <div class="col-xl-6 circuit-image-container">
+                    <img
+                      class="circuit-image"
+                      src="../../../assets/circuits/{{ circuit.image }}"
+                      alt=""
+                    />
+                  </div>
+                  <div class="col-xl-6 circuit-description">
+                    <p>{{ circuit.raceName }} {{ circuit.circuitName }}</p>
+                    <hr />
+                    <p>{{ circuit.date }} - {{ circuit.time }}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+  </div>
+</section>
+<div class="container pt-5">
   <section class="search-section m-2">
     <div class="row">
       <div class="col-xl-2">
@@ -58,7 +124,10 @@
   </section>
 
   <div class="row" *ngIf="drivers && drivers.length > 0">
-    <div *ngFor="let driver of filteredDrivers" class="col-xl-3 col-md-4">
+    <div
+      *ngFor="let driver of filteredDrivers"
+      class="col-xl-3 col-md-4 driver-card"
+    >
       <fieldset class="custom-fieldset">
         <legend>
           <div class="row">

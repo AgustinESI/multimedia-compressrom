@@ -13,7 +13,6 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { DriversComponent } from './components/drivers/drivers.component';
 import { FormsModule } from '@angular/forms';
-import { CircuitsComponent } from './components/circuits/circuits.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -27,7 +26,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     GameComponent,
     CardComponent,
     DriversComponent,
-    CircuitsComponent,
   ],
   imports: [
     BrowserModule,

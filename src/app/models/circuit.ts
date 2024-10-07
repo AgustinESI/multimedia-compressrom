@@ -6,8 +6,10 @@ export class Circuit {
   longitude: string;
   locality: string;
   country: string;
+  image: string;
   date: string;
   time: string;
+  pass: boolean;
 
   constructor(
     circuitName: string,
@@ -17,8 +19,10 @@ export class Circuit {
     longitude: string,
     locality: string,
     country: string,
+    image: string,
     date: string,
-    time: string
+    time: string,
+    pass: boolean
   ) {
     this.circuitName = circuitName;
     this.raceName = raceName;
@@ -27,7 +31,9 @@ export class Circuit {
     this.longitude = longitude;
     this.locality = locality;
     this.country = country;
+    this.image = image;
     this.date = date;
     this.time = time;
+    this.pass = pass;
   }
 }

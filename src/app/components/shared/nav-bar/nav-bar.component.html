@@ -18,7 +18,7 @@
         <a class="nav-link" [routerLink]="'/home'">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" [routerLink]="'/games'">Games</a>
+        <a class="nav-link" [routerLink]="'/games'">F1</a>
       </li>
     </ul>
   </div>
@@ -31,10 +31,9 @@
         class="form-select"
         (change)="changeLang($event)"
       >
-    
-      <option [selected]="lang==='en'" value="en">English</option>
-      <option [selected]="lang==='es'" value="es">Español</option>
-    </select>
+        <option [selected]="lang === 'en'" value="en">English</option>
+        <option [selected]="lang === 'es'" value="es">Español</option>
+      </select>
     </li>
   </ul>
 </nav>

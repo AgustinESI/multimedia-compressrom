@@ -21,6 +21,7 @@ export class GameComponent {
   public ligths: number = 0;
   public message: string = '';
   private audio: HTMLAudioElement = new Audio();
+  protected sound: boolean = false;
 
   ngOnInit() {
     this.loadData();
@@ -28,20 +29,7 @@ export class GameComponent {
   }
 
   loadData() {
-    var path = '../../../assets/data/drivers.json';
-
-    /*
-    this.driverService.getDataDrivers(path).subscribe(
-      (data: Driver[]) => {
-        this.drivers = data;
-      },
-      (error) => {
-        console.error('Error fetching data:', error);
-      }
-    );
-    */
-
-    path = '../../../assets/questions.json';
+    const path = '../../../assets/data/questions.json';
     this.driverService.getQuestions(path).subscribe(
       (data: Question[]) => {
         this.questions = data;
@@ -95,12 +83,14 @@ export class GameComponent {
   }
 
   private playAudio(path: string): void {
-    this.audio.src = path;
-    this.audio.play();
-    setTimeout(() => {
-      this.audio.pause();
-      this.audio.currentTime = 0;
-    }, 10000);
+    if (this.sound) {
+      this.audio.src = path;
+      this.audio.play();
+      setTimeout(() => {
+        this.audio.pause();
+        this.audio.currentTime = 0;
+      }, 10000);
+    }
   }
 
   private generateQuizzQuestions() {
@@ -113,5 +103,13 @@ export class GameComponent {
 
   private getRandomFloat(min: number, max: number): number {
     return Math.floor(Math.random() * (max - min) + min);
+  }
+
+  public manageSound() {
+    if (this.sound) {
+      this.sound = false;
+    } else {
+      this.sound = true;
+    }
   }
 }

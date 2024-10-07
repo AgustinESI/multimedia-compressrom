@@ -205,3 +205,33 @@ h3 {
 .non_visibility {
   visibility: hidden;
 }
+
+.drivers-section {
+  background-color: white;
+  color: black;
+  margin-bottom: 3rem !important;
+  transition: transform 0.2s ease;
+}
+
+.drivers-section:hover {
+  transform: scale(1.1);
+}
+
+.drivers-section-icon {
+  background-color: #e10600;
+  border-radius: 0.625rem 0 0 0.625rem;
+}
+
+.drivers-section-text {
+  border-top: 2px solid grey;
+  border-right: 2px solid grey;
+  border-bottom: 2px solid grey;
+  border-left: none;
+  border-radius: 0 0.625rem 0.625rem 0;
+  text-align: center;
+}
+
+p strong {
+  font-size: 1.3rem;
+  width: 100%;
+}

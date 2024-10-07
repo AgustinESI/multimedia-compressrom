@@ -81,9 +81,9 @@ h3 {
 .custom-fieldset {
   border-top: 5px solid #e10600;
   border-right: 5px solid #e10600;
-  border-bottom: 5px solid #e10600;
+  border-bottom: none;
   border-left: none;
-  border-radius: 0 1.625rem 1.625rem 0;
+  border-radius: 0 1.625rem 0 0;
   padding: 10px 10px 0px 10px;
   margin: 20px;
 }
@@ -131,4 +131,62 @@ h3 {
   font-size: 0.8rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.circuit-item {
+  flex: 1;
+  max-width: 33%;
+  padding: 10px;
+}
+
+.circuit-content {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 0.65rem;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.circuit-image-container {
+  background-image: url(../../../assets/plus-x2.avif);
+  background-size: 8px;
+  border-radius: 0.65rem 0 0 0.65rem;
+}
+
+.circuit-image {
+  max-width: 100%;
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+}
+
+.circuit-description {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(24%) sepia(100%) saturate(7500%) hue-rotate(350deg)
+    brightness(102%) contrast(101%);
+}
+
+.carousel-circuit {
+  border-top: 5px solid #e10600;
+  border-right: 5px solid #e10600;
+  border-bottom: 5px solid #e10600;
+  border-left: none;
+  border-radius: 0 1.625rem 1.625rem 0;
+}
+
+.circuits-section {
+  background-color: #15151e;
+  padding: 80px;
+}
+
+.driver-card {
+  transition: transform 0.2s ease;
+}
+
+.driver-card:hover {
+  transform: scale(1.05);
 }

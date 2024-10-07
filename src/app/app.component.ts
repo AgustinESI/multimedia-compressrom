@@ -18,6 +18,6 @@ export class AppComponent {
   title = 'multimedia-compressrom';
 
   ngOnInit() {
-    this.router.navigate(['/circuits']);
+    this.router.navigate(['/games']);
   }
 }
