@@ -15,7 +15,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" [routerLink]="'/home'">Home</a>
+        <a class="nav-link" [routerLink]="'/home'">Compressor</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" [routerLink]="'/games'">F1</a>
@@ -23,7 +23,10 @@
     </ul>
   </div>
 
-  <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+  <ul
+    class="navbar-nav ml-auto mb-2 mb-lg-0"
+    style="visibility: hidden; display: none"
+  >
     <li class="nav-item">
       <select
         name="select-language"

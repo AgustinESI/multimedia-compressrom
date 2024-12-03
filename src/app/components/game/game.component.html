@@ -120,6 +120,15 @@
 
 <div class="w-100 f1-grey">
   <div class="container p-5 w-50">
+    <div id="imageOverlay" class="overlay" *ngIf="win">
+      <span class="close-btn" onclick="closeImage()">×</span>
+      <img
+        src="../../../assets/alonso-cake.png"
+        alt="Preview"
+        class="overlay-image"
+      />
+    </div>
+
     <fieldset class="custom-fieldset">
       <legend>Results</legend>
       <div class="row">

@@ -22,6 +22,7 @@ export class GameComponent {
   public message: string = '';
   private audio: HTMLAudioElement = new Audio();
   protected sound: boolean = false;
+  public win: boolean = false;
 
   ngOnInit() {
     this.loadData();
@@ -75,7 +76,7 @@ export class GameComponent {
         this.message = 'You have lost the race.';
       } else {
         this.message = 'YOU ARE THE WINNER!';
-
+        this.win = true;
         const path = '../../../assets/f1-audio.mp3';
         this.playAudio(path);
       }

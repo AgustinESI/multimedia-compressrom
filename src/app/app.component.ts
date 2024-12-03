@@ -13,11 +13,12 @@ export class AppComponent {
     private router: Router
   ) {
     this.translateService.setDefaultLang('en');
-    this.translateService.use(localStorage.getItem('lang') || 'en');
+    //this.translateService.use(localStorage.getItem('lang') || 'en');
+    this.translateService.use('en');
   }
   title = 'multimedia-compressrom';
 
   ngOnInit() {
-    this.router.navigate(['/games']);
+    this.router.navigate(['/home']);
   }
 }

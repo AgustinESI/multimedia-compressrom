@@ -1,140 +1,143 @@
-<div class="container d-flex justify-content-center">
-  <div class="card wd-card" [ngClass]="{ loading: isLoading }">
-    <div class="card-body">
-      <h5 class="card-title">{{ "home.title" | translate }}</h5>
-      <h6 class="card-subtitle mb-2 text-muted">
-        {{ "home.subtitle" | translate }}
-      </h6>
-      <div class="card-text">
-        <div
-          class="overlay justify-content-center align-items-center"
-          *ngIf="isLoading"
-        >
-          <img
-            src="../../../assets/windows-error-virus-alert.gif"
-            style="width: 35%"
-            alt="Loading..."
-          />
-        </div>
+<div style="min-height: 800px">
+  <div class="container d-flex justify-content-center mt-5 mb-5">
+    <div class="card wd-card" [ngClass]="{ loading: isLoading }">
+      <div class="card-body">
+        <h5 class="card-title">{{ "home.title" | translate }}</h5>
+        <h6 class="card-subtitle mb-2 text-muted">
+          {{ "home.subtitle" | translate }}
+        </h6>
+        <div class="card-text">
+          <div
+            class="overlay justify-content-center align-items-center"
+            *ngIf="isLoading"
+          >
+            <img
+              src="../../../assets/windows-error-virus-alert.gif"
+              style="width: 35%"
+              alt="Loading..."
+            />
+          </div>
 
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
-              <button
-                class="accordion-button"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
-                aria-expanded="false"
-                aria-controls="collapseOne"
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="false"
+                  aria-controls="collapseOne"
+                >
+                  {{ "home.accordion.title" | translate }}
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
               >
-                {{ "home.accordion.title" | translate }}
-              </button>
-            </h2>
-            <div
-              id="collapseOne"
-              class="accordion-collapse collapse"
-              aria-labelledby="headingOne"
-              data-bs-parent="#accordionExample"
-            >
-              <div class="accordion-body">
-                <p [innerHTML]="'home.accordion.p1' | translate"></p>
-                <p [innerHTML]="'home.accordion.p2' | translate"></p>
-                <p [innerHTML]="'home.accordion.p3' | translate"></p>
-                <p [innerHTML]="'home.accordion.p4' | translate"></p>
-                <p [innerHTML]="'home.accordion.p5' | translate"></p>
-                <p [innerHTML]="'home.accordion.p6' | translate"></p>
-                <p [innerHTML]="'home.accordion.p7' | translate"></p>
+                <div class="accordion-body">
+                  <p [innerHTML]="'home.accordion.p1' | translate"></p>
+                  <p [innerHTML]="'home.accordion.p2' | translate"></p>
+                  <p [innerHTML]="'home.accordion.p3' | translate"></p>
+                  <p [innerHTML]="'home.accordion.p4' | translate"></p>
+                  <p [innerHTML]="'home.accordion.p5' | translate"></p>
+                  <p [innerHTML]="'home.accordion.p6' | translate"></p>
+                  <p [innerHTML]="'home.accordion.p7' | translate"></p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="row mt-4">
-        <div class="col-xl-6">
-          <label for="qualityRange"
-            >{{ "home.compression.quality" | translate }} {{ quality }} %</label
-          >
-          <input
-            type="range"
-            id="qualityRange"
-            min="0"
-            max="100"
-            [(ngModel)]="quality"
-            class="form-range"
-            (ngModelChange)="onQualityChange($event)"
-            [disabled]="isRangeDisabled"
-          />
-        </div>
-
-        <div class="col-xl-6">
-          <label for="qualityRange"
-            >{{ "home.compression.factor" | translate }} {{ size }} %</label
-          >
-          <input
-            type="range"
-            id="qualityRange"
-            min="0"
-            max="100"
-            [(ngModel)]="size"
-            class="form-range"
-            (ngModelChange)="onSizeChange($event)"
-            [disabled]="isRangeDisabled"
-          />
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-xl-6">
-          <div class="row justify-content-center align-items-center">
-            <img
-              class="img-thumbnail img-fluid img-compress"
-              [src]="imgResultBeforeCompress"
-              alt=""
+        <div class="row mt-4">
+          <div class="col-xl-6">
+            <label for="qualityRange"
+              >{{ "home.compression.quality" | translate }}
+              {{ quality }} %</label
+            >
+            <input
+              type="range"
+              id="qualityRange"
+              min="0"
+              max="100"
+              [(ngModel)]="quality"
+              class="form-range"
+              (ngModelChange)="onQualityChange($event)"
+              [disabled]="isRangeDisabled"
             />
           </div>
-          <div class="row justify-content-center align-items-center">
-            <span class="text-center">{{ imgResultBeforeCompressSize }}</span>
-          </div>
-        </div>
-        <div class="col-xl-6">
-          <div class="row justify-content-center align-items-center">
-            <img
-              class="img-thumbnail img-fluid img-compress"
-              *ngIf="imgResultAfterCompress"
-              [src]="imgResultAfterCompress"
-              alt=""
+
+          <div class="col-xl-6">
+            <label for="qualityRange"
+              >{{ "home.compression.factor" | translate }} {{ size }} %</label
+            >
+            <input
+              type="range"
+              id="qualityRange"
+              min="0"
+              max="100"
+              [(ngModel)]="size"
+              class="form-range"
+              (ngModelChange)="onSizeChange($event)"
+              [disabled]="isRangeDisabled"
             />
           </div>
-          <div class="row justify-content-center align-items-center">
-            <span class="text-center">{{ imgResultAfterCompressSize }}</span>
+        </div>
+
+        <div class="row">
+          <div class="col-xl-6">
+            <div class="row justify-content-center align-items-center">
+              <img
+                class="img-thumbnail img-fluid img-compress"
+                [src]="imgResultBeforeCompress"
+                alt=""
+              />
+            </div>
+            <div class="row justify-content-center align-items-center">
+              <span class="text-center">{{ imgResultBeforeCompressSize }}</span>
+            </div>
+          </div>
+          <div class="col-xl-6">
+            <div class="row justify-content-center align-items-center">
+              <img
+                class="img-thumbnail img-fluid img-compress"
+                *ngIf="imgResultAfterCompress"
+                [src]="imgResultAfterCompress"
+                alt=""
+              />
+            </div>
+            <div class="row justify-content-center align-items-center">
+              <span class="text-center">{{ imgResultAfterCompressSize }}</span>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="card-footer d-flex justify-content-center mt-4">
-        <button
-          *ngIf="!imgResultAfterCompress"
-          class="btn btn-primary mx-2"
-          (click)="compressFile()"
-        >
-          {{ "button.upload.image" | translate }}
-        </button>
-        <button
-          *ngIf="imgResultAfterCompress"
-          class="btn btn-success mx-2"
-          (click)="download()"
-        >
-        {{ "button.download" | translate }}
-        </button>
-        <button
-          *ngIf="imgResultAfterCompress"
-          class="btn btn-danger mx-2"
-          (click)="clear()"
-        >
-        {{ "button.clear" | translate }}
-        </button>
+        <div class="card-footer d-flex justify-content-center mt-4">
+          <button
+            *ngIf="!imgResultAfterCompress"
+            class="btn btn-primary mx-2"
+            (click)="compressFile()"
+          >
+            {{ "button.upload.image" | translate }}
+          </button>
+          <button
+            *ngIf="imgResultAfterCompress"
+            class="btn btn-success mx-2"
+            (click)="download()"
+          >
+            {{ "button.download" | translate }}
+          </button>
+          <button
+            *ngIf="imgResultAfterCompress"
+            class="btn btn-danger mx-2"
+            (click)="clear()"
+          >
+            {{ "button.clear" | translate }}
+          </button>
+        </div>
       </div>
     </div>
   </div>
